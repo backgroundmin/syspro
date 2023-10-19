@@ -1,7 +1,7 @@
 main: main.o copy.o
 	gcc –o main main.o copy.o
 main.o: main.c copy.h
-	gcc –c main.c
+	gcc main.o -c main.c copy.h
 copy.o: copy.c
-	gcc –c copy.c
+	gcc copy.c
 
