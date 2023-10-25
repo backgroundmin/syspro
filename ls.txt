@@ -1,5 +1,0 @@
-3week
-README.md
-chap1
-ls.txt
-test1
